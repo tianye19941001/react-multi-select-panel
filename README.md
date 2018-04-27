@@ -4,6 +4,13 @@
 
 `npm i react-multi-select-panel`
 
+## 使用
+
+```
+import MultiSelectPanel from 'react-multi-select-panel';
+require('react-multi-select-panel/index.css');
+```
+
 ## 组件API
 
 - `leftSelects: [Arrary]` ： `Checkbox`的 `name` ；
@@ -39,7 +46,9 @@
 
 ```
 import React, { Component } from 'react';
-import MultiSelectPanel from './components/MultiSelectPanel';
+import MultiSelectPanel from 'react-multi-select-panel';
+
+require('react-multi-select-panel/index.css')
 
 class App extends Component {
   constructor(props){
@@ -97,6 +106,5 @@ class App extends Component {
 }
 
 export default App;
-
 
 ```

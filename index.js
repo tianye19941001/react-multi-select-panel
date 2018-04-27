@@ -2,7 +2,7 @@ import React from 'react';
 import _     from 'lodash';
 import cx    from 'classnames';
 
-require('./index.css')
+// require('./index.css')
 
 class MultiSelectPanel extends React.Component {
   constructor(props) {
