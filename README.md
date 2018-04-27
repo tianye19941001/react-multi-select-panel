@@ -1,5 +1,8 @@
 # MultiSelectPanel组件
 
+# 示例
+![image](https://github.com/tianye19941001/react-multi-select-panel/blob/master/demo.gif?raw=true)
+
 ## 安装
 
 `npm i react-multi-select-panel`
@@ -25,20 +28,20 @@ require('react-multi-select-panel/index.css');
 ```
 {
   leftSelects: [
-    {id: '606923582', title: '哈哈哈测试上传配图绑定'},
-    {id: '606923178', title: '测试计划计划'},
-    {id: '606923170', title: '测试计划计划'}
+    {id: '6069231', title: '哈哈哈测试上传配图绑定'},
+    {id: '6069232', title: '测试计划计划'},
+    {id: '6069233', title: '测试计划计划'}
   ],
   rightSelects: [
-    {id: '606922897', title: 'kkkk'},
-    {id: '606922825', title: '新的乱买词'},
-    {id: '606921622', title: '21新增的移动计划112312311'},
-    {id: '606921621', title: '测试测试...1'},
-    {id: '606921233', title: '客户端测试 计划hhh'},
-    {id: '606919079', title: '2222'},
-    {id: '606919078', title: '多线程计划'},
-    {id: '606918743', title: '1233456789'},
-    {id: '606918698', title: 'test_kune90909'}
+    {id: '6069224', title: 'kkkk'},
+    {id: '6069225', title: '新的乱买词'},
+    {id: '6069216', title: '21新增的移动计划112312311'},
+    {id: '6069217', title: '测试测试...1'},
+    {id: '6069218', title: '客户端测试 计划hhh'},
+    {id: '6069199', title: '2222'},
+    {id: '6069191', title: '多线程计划'},
+    {id: '6069182', title: '1233456789'},
+    {id: '6069183', title: 'test_kune90909'}
   ]
 }
 ```
@@ -56,20 +59,20 @@ class App extends Component {
     super(props);
     this.state = {
       noSelectedOptions: [
-        {id: '606923582', title: '哈哈哈测试上传配图绑定'},
-        {id: '606923178', title: '测试计划计划'},
-        {id: '606923170', title: '测试计划计划'}
+        {id: '6069231', title: '哈哈哈测试上传配图绑定'},
+        {id: '6069232', title: '测试计划计划'},
+        {id: '6069233', title: '测试计划计划'}
       ],
       selectedOptions: [
-        {id: '606922897', title: 'kkkk'},
-        {id: '606922825', title: '新的乱买词'},
-        {id: '606921622', title: '21新增的移动计划112312311'},
-        {id: '606921621', title: '测试测试...1'},
-        {id: '606921233', title: '客户端测试 计划hhh'},
-        {id: '606919079', title: '2222'},
-        {id: '606919078', title: '多线程计划'},
-        {id: '606918743', title: '1233456789'},
-        {id: '606918698', title: 'test_kune90909'}
+        {id: '6069224', title: 'kkkk'},
+        {id: '6069225', title: '新的乱买词'},
+        {id: '6069216', title: '21新增的移动计划112312311'},
+        {id: '6069217', title: '测试测试...1'},
+        {id: '6069218', title: '客户端测试 计划hhh'},
+        {id: '6069199', title: '2222'},
+        {id: '6069191', title: '多线程计划'},
+        {id: '6069182', title: '1233456789'},
+        {id: '6069183', title: 'test_kune90909'}
       ],
       showSelects: false
     }
