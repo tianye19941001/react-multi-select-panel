@@ -1,5 +1,55 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.multi-select-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  padding: 20px;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.multi-select-panel .middle-controllers {
+  float: left;
+  width: 140px;
+  text-align: center;
+}
+
+.multi-select-panel .middle-controllers button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.multi-select-panel .left-selects, .right-selects {
+  float: left;
+  width: 170px;
+  height: 200px;
+}
+.multi-select-panel option {
+  padding: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.multi-select-panel select {
+  width: 170px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 12px;
+  color: #666;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.multi-select-panel .confirm-selects {
+  padding-top: 30px;
+  text-align: center;
+  clear: both;
+}
+.multi-select-panel .confirm-selects button {
+  margin: 0 24px;
+  padding: 0 20px
 }
