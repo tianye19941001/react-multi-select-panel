@@ -8,6 +8,7 @@
 
 ```
 import MultiSelectPanel from 'react-multi-select-panel';
+
 require('react-multi-select-panel/index.css');
 ```
 
